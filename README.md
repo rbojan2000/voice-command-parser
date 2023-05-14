@@ -1,6 +1,6 @@
 # Voice Command Parser: Stateless Processing in Kafka Streams
 
-## Our Application
+## Application
 An application that will receive Voice Commands and will convert them into text commands, if it's able to recognize them, and will put the unrecognized commands in a different topic.
 
 The audio will be in FLAC format and is prepared to be used by the Speech To Text API in Google Cloud Platform. For the purpose of testing, we are going to be using a mock service.
