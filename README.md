@@ -1,4 +1,4 @@
-# Voice Command Parser: Stateless Processing in Kafka Streams
+# Voice Command Parser: Processing in Kafka Streams
 
 ## Application
 An application that will receive Voice Commands and will convert them into text commands.
