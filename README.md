@@ -19,11 +19,11 @@ The commands that are not in English will be translated to English to be further
 
 ## Setup
 1. Clone this repository: git clone https://github.com/rbojan2000/voice-command-parser.git
-2. Install backend dependencies: cd voice-command-parser && mvn install
-3. Start ZooKeeper
-4. Start Kafka
-5. Create topics : 
-    * "voice-commands";
-    * "recognized-commands";
-    * "unrecognized-commands";
-
+2. Start ZooKeeper
+3. Start Kafka
+4. Create topics : 
+    * "voice-commands"
+    * "recognized-commands"
+    * "unrecognized-commands"
+5. Install backend dependencies: cd voice-command-parser && mvn install
+6. mvn exec:java -Dexec.mainClass="VoiceCommandParserApp"
