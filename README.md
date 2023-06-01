@@ -26,4 +26,4 @@ The commands that are not in English will be translated to English to be further
     * "recognized-commands"
     * "unrecognized-commands"
 5. Install backend dependencies: cd voice-command-parser && mvn install
-6. mvn exec:java -Dexec.mainClass="VoiceCommandParserApp"
+6. Execute application: mvn exec:java -Dexec.mainClass="VoiceCommandParserApp"
