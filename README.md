@@ -3,7 +3,6 @@
 ## Table of contents
 * [Application](#Application)
 * [Application Diagram](#application-diagram)
-* [Technologies](#technologies)
 * [Setup](#setup)
 
 
@@ -20,3 +19,11 @@ The commands that are not in English will be translated to English to be further
 
 ## Setup
 1. Clone this repository: git clone https://github.com/rbojan2000/voice-command-parser.git
+2. Install backend dependencies: cd voice-command-parser && mvn install
+3. Start ZooKeeper
+4. Start Kafka
+5. Create topics : 
+    * "voice-commands";
+    * "recognized-commands";
+    * "unrecognized-commands";
+
